@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: "Montserrat"; */
+    font-weight:900;
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#title{
+    background-color: #000;
+    text-align: center;
+    color: #fff
+}
+.title-para{
+    font-weight: bold;
+    padding-top: 5px;
+}
+.title-btn{
+    margin: 0% 1% 7%;
+    padding:1% 2%;
+   
+}
+.btn-color{
+    color: rgb(255, 255, 255);
+}
+.profile-pic{
+    transition: transform .1s;
+    width: 10%;
+    border-radius: 100%;
+    margin: 10% 0 2%;
+    -webkit-transition: transform .1s;
+    -moz-transition: transform .1s;
+    -ms-transition: transform .1s;
+    -o-transition: transform .1s;
+}
+.profile-pic:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow:    inset 0 0 60px whitesmoke,    inset 20px 0 80px #f0f,    inset -20px 0 80px #0ff,    inset 20px 0 300px #f0f,    inset -20px 0 300px #0ff,    0 0 50px #fff,    -10px 0 80px #f0f,    10px 0 80px #0ff;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/*----- NavBar----- */
+
+
+.navbar{
+    /* margin-bottom: 1%; */
+    padding-bottom: .1rem;
+    padding-left: 10%;
+     padding-right: 10%; 
+     /* background-color: black; */
+}
+.bg-dark{
+    background: transparent !important;
+    transition: ease-in-out .5s;
+    -webkit-transition: ease-in-out .5s;
+    -moz-transition: ease-in-out .5s;
+    -ms-transition: ease-in-out .5s;
+    -o-transition: ease-in-out .5s;
+}
+.bg-dark.scrolled{
+    /* background: #3c3a9c !important; */
+    background-color: #305377 !important;
+}
+.nav-item{
+    padding: 2%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1rem;
+    font-weight:bold;
+    
+}
+/* About */
+#about{
+    background-color: #fff;
+    padding: 9% 15%;
+}
+/* .about-card{
+    padding: %;
+} */
+
+/* professional-skills */
+#professional-skills{
+    background-color: #fff;
+    padding: 9% 15%;
+    text-align: center;
+}
+.prgBar{
+    padding: 3%;
+}
+.prgBarSpace{
+    padding: 1% 2%;
+    margin:5;
+}
+.prgBG{
+    background-color: #7868E6
+}
+/* .skills-card-bg{
+    background-color: #000;
+    color: #fff;
+} */
+
+/* Testimonial Section */
+#testimonials{
+   padding: 9% 15%;
+    text-align: center;
+
+}
+/* .tst-bg{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px) !important;
+} */
+.testimonial-card{
+    
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin-top: 3%;
+    
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius:100%;
+    margin-left:45%;
+}
+.testimonial-text{
+    padding: 0% 0 2%;
+}
+
+.carousel-item{
+    padding: 4% 15%;
+}
+.carousel-inner{
+    color: #fff;
+    /* padding: 5%; */
+    text-align: center;
+}
+.fas{
+    color: #F7EA00 ;
+}
+
+#education{
+    background-color: #fff;
+    padding: 9% 15%;
+    text-align: center;
+}
+.education-card{
+    margin-top: 3%;
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75) ;
+}
+.contact{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content{
+    margin-left: 200px;
+    margin-right: auto;
+}
+.contact-btn{
+    margin-top: 10px;;
+}
+#footer{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+/* Hamburger */
+/* header */
+
+.header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
